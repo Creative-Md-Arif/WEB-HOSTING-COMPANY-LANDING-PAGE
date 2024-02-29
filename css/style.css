@@ -54,7 +54,7 @@ body{
    
 }
 
-
+.main_menu ul li .active_1::after,
 .main_menu ul li a::after{
     position:absolute;
     content: '';
@@ -72,7 +72,7 @@ body{
 
 
 
-
+.main_menu ul li .active_1::after,
 .main_menu ul li a:hover::after{
   transform: scaleX(1);
 }
@@ -220,7 +220,7 @@ body{
 
 
 }
-
+.banner_btn .active2,
 .banner_btn a:hover{
     background-color: #B00000;
     color: #FFFFFF;
@@ -440,7 +440,7 @@ body{
     border-radius: 5px;
   }
   
-
+  .pricing_head ul .active3,
   .pricing_head ul li:hover{
     border-color: red;
     isolation: isolate;
@@ -808,6 +808,12 @@ body{
   font-weight: 400;
   color: #E6E6E6;
   font-family: 'Poppins', sans-serif;
+  transition: all linear .3s;
+}
+
+.footer_col ul li .active4,
+.footer_col ul li a:hover{
+  color: black;
 
 }
 
