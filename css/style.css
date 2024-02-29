@@ -54,6 +54,7 @@ body{
    
 }
 
+
 .main_menu ul li a::after{
     position:absolute;
     content: '';
@@ -67,6 +68,10 @@ body{
     transform: scaleX(0);
 
 }
+
+
+
+
 
 .main_menu ul li a:hover::after{
   transform: scaleX(1);
@@ -144,9 +149,15 @@ body{
 
 }
 
+.banner_text ul li .active1{
+  color: #B00000;
+}
+
+
 .banner_text ul li a:hover{
     color: #B00000;
 }
+
 
 .banner_text ul li a::after{
     content: '';
@@ -162,6 +173,7 @@ body{
 
 }
 
+.banner_text ul li .active1::after,
 .banner_text ul li a:hover::after{
     transform: scaleX(1);
     
